@@ -11,5 +11,6 @@ namespace ServiceAbstraction
         public IEmployeeService EmployeeService { get; }
         public IDepartmentService DepartmentService { get; }
         public ISalaryService SalaryService { get; }
+        public IAuthService AuthService { get; }
     }
 }

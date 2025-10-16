@@ -72,7 +72,7 @@ namespace E_Commerce.Web.CustomMiddleWares
                 var response = new ErrorToReturn()
                 {
                     StatusCode = StatusCodes.Status401Unauthorized,
-                    ErrorMessage = $"UnAuthorized, please login and try again"
+                    ErrorMessage = "UnAuthorized, please login and try again"
                 };
                 await httpContext.Response.WriteAsJsonAsync(response);
             }
