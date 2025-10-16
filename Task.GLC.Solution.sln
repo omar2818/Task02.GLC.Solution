@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{FBDE10B0-D6D2-45F6-ABB4-11A7A2596DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task02.Blazor", "Task02.Blazor\Task02.Blazor.csproj", "{02612BBD-25BF-4B2B-8260-537A26D866DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{FBDE10B0-D6D2-45F6-ABB4-11A7A2596DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBDE10B0-D6D2-45F6-ABB4-11A7A2596DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBDE10B0-D6D2-45F6-ABB4-11A7A2596DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02612BBD-25BF-4B2B-8260-537A26D866DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02612BBD-25BF-4B2B-8260-537A26D866DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02612BBD-25BF-4B2B-8260-537A26D866DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02612BBD-25BF-4B2B-8260-537A26D866DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
